@@ -49,6 +49,7 @@ a:active {
 .game-submit {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 40px;
 }
 
@@ -216,6 +217,14 @@ a:active {
     height: 50px;
     font-size: 22px;
     border: 2px solid gray;
+  }
+
+  .right {
+    border: 2px solid green;
+  }
+
+  .wrong {
+    border: 2px solid red;
   }
 
   .guess-attempts {
