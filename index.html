@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the word</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="game">
+                <div class="game-title">
+                    <h2 class="h2-title">Let's play a game!</h2>
+                </div>
+                <div class="game-submit">
+                    <div class="input-block">
+                        <div class="input-word flex">
+                            <div class="word-title title">Word:</div>
+                            <input type="text" placeholder="insert the guessing word" class="word in-stlye">
+                        </div>
+                        <div class="input-hint flex">
+                            <div class="hint-title title">Hint:</div>
+                            <input type="text" placeholder="insert a hint for it" class="hint in-stlye">
+                        </div>
+                    </div>
+                    <div class="submit-block">
+                        <button class="submit-btn btn-style">Submit</button>
+                    </div>
+                </div>
+                <div class="hint-question hidden"></div>
+                <div class="you-won hidden">Congrats, You Won!</div>
+                <div class="you-lost hidden">You Lost! Game Over!</div>
+                <div class="letters-blocks hidden">
+                    <!-- <input class="one-letter" maxlength="1"></input>
+                    <input class="one-letter" maxlength="1"></input>
+                    <input class="code by © Eugeniu Rascu"></input>
+                    <input class="one-letter" maxlength="1"></input>
+                    <input class="one-letter" maxlength="1"></input> -->
+                </div>
+                <div class="guess-attempts hidden">
+                    <div class="guess-text">You have</div>
+                    <div class="attempts no-more">0</div>
+                    <div class="guess-text">attempts left!</div>
+                </div>
+                <div class="restart-button hidden">
+                    <button class="restart btn-style">Restart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
